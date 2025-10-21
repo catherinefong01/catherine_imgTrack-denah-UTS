@@ -9,7 +9,7 @@
 <body>
     <a-scene embedded arjs>
         <a-assets>
-            <a-asset-item id="sora" src="sora.glb"></a-asset-item>
+            <a-asset-item id="sora" src="./sora.glb"></a-asset-item>
         </a-assets>
         <a-marker preset="hiro">
             <a-gltf-model
@@ -20,7 +20,7 @@
                 >
             </a-gltf-model>
         </a-marker>
-        <a-marker type="pattern" url="pattern-denah.patt">
+        <a-marker type="pattern" url="./pattern-denah.patt">
             <a-gltf-model
                 src="#sora"
                 position="0 0.2 0"
@@ -34,4 +34,5 @@
 </body>
 
 </html>
+
 
